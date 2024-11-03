@@ -19,4 +19,5 @@
 
 .div-cluster div:hover {
   box-shadow: 5px 5px grey;
+  cursor: pointer;
 }

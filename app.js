@@ -4,11 +4,12 @@ console.log(body)
 
 // updating the style
 const h1 = document.querySelector('h1')
-h1.style.color = "aquamarine"
+h1.style.color = "maroon"
 
 // create new elements
 const newH1 = document.createElement('h1');
-newH1.innerText = "A new heading"
+newH1.innerText = "A new heading added dymamically"
+newH1.style.color = 'tan'
 // appending
 body.appendChild(newH1)
 
